@@ -10,7 +10,7 @@ const NavigationMenu = () => {
   };
 
   const location = useLocation();
-  const ExcludedPaths = ['/blog', '/blog/full-stack-development', '/blog/data-science', '/blog/careers', '/blog/cyber-security'];
+  const ExcludedPaths = ['/', '/blog', '/blog/full-stack-development', '/blog/data-science', '/blog/careers', '/blog/cyber-security'];
   const showNavBar = ExcludedPaths.includes(location.pathname);
 
   return showNavBar ? (
