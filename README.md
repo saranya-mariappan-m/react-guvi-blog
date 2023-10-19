@@ -1,8 +1,22 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR.
 
-Currently, two official plugins are available:
+# Concepts covered:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+useState
+useEffect
+useLocation
+Props Drilling
+Routes
+Link
+Navigate
+useParams
+
+# Queries:
+1. How to implement useEffect effectively on this task?
+2. Passing data from child to parent to show Navbar?
+3. Navbar toggle needs clarification
+4. Conditional spacific background for coursedetail page
+5. How to avoid using [0] on coursedetail page
+6. How to handle Route & Link - on handling /blog/* 
